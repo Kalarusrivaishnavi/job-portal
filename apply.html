@@ -11,16 +11,16 @@
         <h2 id="jobtitle"></h2>
        <form id="applyform">
          <div class="form-group">
-          <label for="username">Name:</label>
-          <input type="text" id="username" placeholder="enter name" required>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="enter name" required>
          </div>
          <div class="form-group">
-          <label for="email">Email:</label>
-          <input type="email" id="email" placeholder="enter email" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="enter email" required>
          </div>
          <div class="form-group">
-          <label for="number">Ph.no:</label>
-          <input type="number" id="number" placeholder="enter number" required>
+          <label for="Phone">Phone Number</label>
+          <input type="tel" id="Phone" name="Phone" pattern="[0-9]{10}" placeholder="enter number" required>
          </div>
          <button type="submit" id="submit">submit</button>
          <p id="success"> Application  Submitted successfully!</p>
